@@ -1,0 +1,59 @@
+*{
+    margin:0;
+    padding:0;
+}
+body main{
+    background-color: black;
+    color:rgb(55, 52, 52);
+    padding:25px;
+}
+body main div{
+    height:85vh;
+    padding:5px;
+    display:flex;
+    border:10px solid rgb(55, 52, 52);
+    border-radius:30px;
+    justify-content: space-around;
+    align-items:center;
+    background-color:black;
+}
+body main div ul#list_day{
+    list-style: none;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:2rem;
+    width:20%;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+body main div ul#time{
+    list-style:none;
+    color:azure;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bolder;
+    font-size:25rem;
+    display:flex;
+    justify-content:space-evenly;
+    align-items:center;
+}
+body main div ul#time .blink{
+    font-size: 26rem;
+    animation: blink 2s infinite;
+}
+@keyframes blink {
+    0% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+body main div ul #sun{
+    color:white;
+}
